@@ -1,7 +1,7 @@
 import { IItem, TabsKeys } from '../interfaces';
 
 
-export function filterItemsService(selectedTab: TabsKeys, items: IItem[]) {
+export function filterItemsService(selectedTab: TabsKeys, items: IItem[]): IItem[] {
   if (selectedTab === TabsKeys.Show_All) {
     return items;
   }

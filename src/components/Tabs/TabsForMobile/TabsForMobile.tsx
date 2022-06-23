@@ -1,13 +1,14 @@
 import style from './TabsForMobile.module.css';
 
 import { ITabs, TabsKeys } from 'interfaces';
+import { useCallback } from 'react';
 
 
 export function TabsForMobile({ tabs, setSelectedTab, selectedTab }: ITabs) {
 
-  const onTabClickHandler = (label: TabsKeys) => {
+  const onTabClickHandler = useCallback((label: TabsKeys) => {
     setSelectedTab(label);
-  };
+  }, [setSelectedTab]);
 
   return (
       <div className={style.container}>

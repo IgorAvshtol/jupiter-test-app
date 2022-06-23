@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 65px auto 0;
+    margin: 30px auto 0;
 }
 
 @media (min-width: 1040px) {
@@ -12,7 +12,12 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        margin: 45px auto 0;
+        margin: 30px auto 0;
+    }
+
+    .container::after {
+        content: "";
+        width: calc(50% - 1em);
     }
 }
 
@@ -22,6 +27,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 45px auto 0;
+        margin: 30px auto 0;
     }
 }

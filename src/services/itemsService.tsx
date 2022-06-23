@@ -13,7 +13,9 @@ import sport from 'images/sport.png';
 import { IItem } from '../interfaces';
 
 
-export function fetchItems(itemsNumber: number = 9): IItem[] {
+const ITEMS_NUMBER = 9;
+
+export function fetchItems(itemsNumber: number = ITEMS_NUMBER): IItem[] {
 
   const titles = ['SOFA', 'KeyBoard', 'Work Media', 'DDDone', 'Abstract', 'HandP', 'Architect', 'CalC', 'Sport'];
   const categories = ['Design', 'Motion', 'Branding', 'Illustration'];

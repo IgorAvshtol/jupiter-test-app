@@ -1,13 +1,14 @@
 import style from './TabsForDesktop.module.css';
 
 import { ITabs, TabsKeys } from 'interfaces';
+import { useCallback } from 'react';
 
 
 export function TabsForDesktop({ tabs, selectedTab, setSelectedTab }: ITabs) {
 
-  const onTabClickHandler = (label: TabsKeys) => {
+  const onTabClickHandler = useCallback((label: TabsKeys) => {
     setSelectedTab(label);
-  };
+  }, [setSelectedTab]);
 
   return (
       <>

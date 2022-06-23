@@ -1,4 +1,4 @@
-export function selectItemService(selectedItems: string[], currentItem: string) {
+export function selectItemService(selectedItems: string[], currentItem: string): string[] {
   if (selectedItems.includes(currentItem)) {
     return selectedItems.filter(item => item !== currentItem);
   }
