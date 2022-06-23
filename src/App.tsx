@@ -14,7 +14,6 @@ function App() {
   const [collections, setCollections] = useState<IItem[]>(itemsCollection);
   const [selectedItem, setSelectedItem] = useState<string[]>([]);
 
-
   const onLoadMoreButtonHandler = () => {
     setCollections(prevState => [...prevState, ...fetchItems()]);
   };

@@ -34,7 +34,7 @@
     color: #391400;
 }
 
-@media (min-width: 1040px) {
+@media (min-width: 1041px) {
     .container {
         display: none;
     }

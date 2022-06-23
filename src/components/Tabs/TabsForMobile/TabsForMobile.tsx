@@ -1,7 +1,8 @@
+import { useCallback } from 'react';
+
 import style from './TabsForMobile.module.css';
 
 import { ITabs, TabsKeys } from 'interfaces';
-import { useCallback } from 'react';
 
 
 export function TabsForMobile({ tabs, setSelectedTab, selectedTab }: ITabs) {

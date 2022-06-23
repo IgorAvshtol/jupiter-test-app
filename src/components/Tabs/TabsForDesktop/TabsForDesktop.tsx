@@ -1,7 +1,8 @@
+import { useCallback } from 'react';
+
 import style from './TabsForDesktop.module.css';
 
 import { ITabs, TabsKeys } from 'interfaces';
-import { useCallback } from 'react';
 
 
 export function TabsForDesktop({ tabs, selectedTab, setSelectedTab }: ITabs) {
