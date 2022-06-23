@@ -1,0 +1,35 @@
+.container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.tabsBlock {
+    display: flex;
+}
+
+.button {
+    margin-right: 65px;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: 'Epilogue', sans-serif;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.activeTab {
+    color: #16cd53;
+}
+
+.noActiveTab {
+    color: #391400;
+}
+
+@media (max-width: 1040px) {
+    .container {
+        display: none;
+    }
+}

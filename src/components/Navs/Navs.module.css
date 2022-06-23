@@ -1,0 +1,21 @@
+.navsBlock {
+    width: 513px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    font-size: 16px;
+    line-height: 32px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+@media (max-width: 1040px) {
+    .navsBlock {
+        display: none;
+    }
+}

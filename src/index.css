@@ -1,0 +1,25 @@
+html,
+body {
+  margin: 0;
+  font-family: 'Epilogue', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  font-weight: 400;
+  src: local('Epilogue'), url(./assets/fonts/Epilogue-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  font-weight: 800;
+  src: local('Epilogue'), url(./assets/fonts/Epilogue-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  font-weight: 900;
+  src: local('Epilogue'), url(./assets/fonts/Epilogue-Black.ttf) format('truetype');
+}

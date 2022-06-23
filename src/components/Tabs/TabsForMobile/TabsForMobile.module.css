@@ -1,0 +1,41 @@
+.container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.tabsBlock {
+    width: 329px;
+    height: 48px;
+    padding-left: 23px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    border: 1px solid #f3d1bf;
+    font-size: 16px;
+    line-height: 32px;
+    color: #391400;
+    font-weight: 400;
+    opacity: 0.6;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-position-x: calc(100% - 18px);
+    background-position-y: calc(100% - 16px);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-image: url('/src/images/Red_triangle.png');
+}
+
+.activeTab {
+    color: #16cd53;
+}
+
+.noActiveTab {
+    color: #391400;
+}
+
+@media (min-width: 1040px) {
+    .container {
+        display: none;
+    }
+}
