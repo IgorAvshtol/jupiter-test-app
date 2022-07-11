@@ -1,6 +1,6 @@
 # Before you start please read this small article
 
-## Deployed app: [(https://jupiter-deploy.vercel.app/)]
+## Deployed app: [(https://jupiter-app-deploy.vercel.app/)]
 
 #### Content:
 * what was done
