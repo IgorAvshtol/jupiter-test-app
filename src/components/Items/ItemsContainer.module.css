@@ -1,23 +1,12 @@
-.container {
-    width: 85%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 30px auto 0;
-}
-
 @media (min-width: 1040px) {
     .container {
+        margin-top: 73px;
+        width: 85%;
         max-width: 1820px;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        margin: 30px auto 0;
-    }
-
-    .container::after {
-        content: "";
-        width: calc(50% - 1em);
+        display: grid;
+        grid-gap: 20px 40px;
+        justify-items: center;
+        grid-template-columns: repeat(auto-fill, minmax(370px, auto));
     }
 }
 
@@ -27,6 +16,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 30px auto 0;
+        margin: 48px auto 0;
     }
 }

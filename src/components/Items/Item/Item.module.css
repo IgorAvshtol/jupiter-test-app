@@ -3,7 +3,6 @@
     border: 7px solid transparent;
     display: flex;
     align-items: flex-end;
-    margin-top: 30px;
     width: 370px;
     height: 416px;
     z-index: 10;
@@ -13,7 +12,6 @@
     position: relative;
     display: flex;
     align-items: flex-end;
-    margin-top: 30px;
     width: 370px;
     height: 416px;
     z-index: 10;
